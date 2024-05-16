@@ -6,7 +6,7 @@ export default function MyApp() {
             Counters that update separately!
         </h1>
         <MyButton />
-        <MyAppButton />
+        <MyButton />
     </div>
     );
 }
