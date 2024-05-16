@@ -11,7 +11,11 @@ const products = [
 
 export default function shoppingList() {
     const listItems = products.map(product =>
-        <li key={product.id}>
+        <li key={product.id}
+        style={{
+            color: product.isDrink ? 'magenta' : 'darkgreen'
+          }}
+        >
             {product.name}
             {product.id}
         </li>
