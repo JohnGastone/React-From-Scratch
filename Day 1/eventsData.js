@@ -5,8 +5,8 @@ export default function MyApp() {
         <h1>
             Counters that update separately!
         </h1>
-        <MyButton />
-        <MyButton />
+        <MyButton count={ count } onClick={handleClick} />
+        <MyButton count={ count } onClick={handleClick} />
     </div>
     );
 }
