@@ -56,8 +56,8 @@ const App = () => {
 
   return (
     <div className="game">
+      <h1>Try your luck with Tic Tac Toe board below:</h1>
       <div className="game-board">
-        <h1>Try your luck with Tic Tac Toe board below:</h1>
         <Board squares={squares} onClick={handleClick} />
       </div>
       <div className="game-info">
