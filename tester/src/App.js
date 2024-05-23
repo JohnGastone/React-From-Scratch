@@ -63,6 +63,7 @@ const App = () => {
       <div className="game-info">
         <div>{status}</div>
       </div>
+      <br></br>
       <div>
         <button className='resetButton' onClick={() => setSquares(Array(9).fill(null))}>
           Start Over
